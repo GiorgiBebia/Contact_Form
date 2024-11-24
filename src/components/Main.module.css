@@ -1,0 +1,435 @@
+.div_size,
+.div_size_error {
+  width: 736px;
+  height: 773px;
+  margin: 0 auto;
+  margin-top: 128px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.div_size_error {
+  height: 850px;
+}
+
+.contact_us_text {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  color: #2a4144;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.first_last_div {
+  width: 656px;
+  height: 83px;
+  margin: 0 auto;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_div,
+.last_div,
+.first_div_error,
+.last_div_error {
+  width: 320px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+}
+
+.first_div_error,
+.last_div_error {
+  height: 107px;
+}
+
+.first_name_text,
+.last_name_text,
+.email_text,
+.message_text {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #2a4144;
+}
+
+.star {
+  color: #0c7d69;
+}
+
+.first_name_input,
+.last_name_input,
+.first_name_input_red,
+.last_name_input_red {
+  width: 270px;
+  height: 51px;
+  border: 1px solid #86a2a5;
+  margin-top: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: #2a4144;
+}
+
+.first_name_input:hover,
+.last_name_input:hover {
+  border: 1px solid #0c7d69;
+}
+
+.correct,
+.correct {
+  display: none;
+}
+
+.not_correct,
+.not_correct {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #d73c3c;
+  margin-top: 5px;
+}
+
+.email_div,
+.email_div_error {
+  width: 656px;
+  height: 83px;
+  margin: 0 auto;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.email_div_error {
+  height: 107px;
+}
+
+.email_input,
+.email_input_red {
+  width: 606px;
+  height: 51px;
+  border: 1px solid #86a2a5;
+  margin-top: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: #2a4144;
+}
+
+.first_name_input_red,
+.last_name_input_red,
+.email_input_red {
+  border: 1px solid #d73c3c;
+}
+
+.email_input:hover {
+  border: 1px solid #0c7d69;
+}
+
+.query_type_div,
+.query_type_div_error {
+  width: 656px;
+  height: 83px;
+  margin: 0 auto;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.query_type_div_error {
+  height: 107px;
+}
+
+.radio_div {
+  width: 656px;
+  height: 51px;
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.general_enquiry,
+.support_request {
+  width: 294px;
+  height: 49px;
+  border: 1px solid #86a2a5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 24px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: #2a4144;
+  cursor: pointer;
+}
+
+.general_enquiry:hover,
+.support_request:hover {
+  border: 1px solid #0c7d69;
+}
+
+.general_enquiry_text,
+.support_request_text {
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  width: 24px;
+  height: 24px;
+  color: #86a2a5;
+  accent-color: #0c7d69;
+  cursor: pointer;
+}
+
+.selected_radio {
+  background-color: #e0f1e8;
+}
+
+.message_div,
+.message_div_error {
+  width: 656px;
+  height: 137px;
+  margin: 0 auto;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message_div_error {
+  height: 166px;
+}
+
+.message_textarea {
+  width: 606px;
+  height: 105px;
+  border-radius: 8px;
+  border: 1px solid #86a2a5;
+  margin-top: 8px;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: #2a4144;
+}
+
+.message_textarea:hover {
+  border: 1px solid #0c7d69;
+}
+
+.terms,
+.terms_error {
+  width: 656px;
+  height: 24px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: start;
+}
+
+.terms_error {
+  margin-top: 20px;
+
+  margin-bottom: 0px;
+}
+
+.check_terms {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.terms_text {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #2a4144;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  color: #86a2a5;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #0c7d69;
+}
+
+.button {
+  width: 656px;
+  height: 59px;
+  border-radius: 8px;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: #0c7d69;
+  color: white;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.button:hover {
+  background-color: #063f35;
+}
+
+@media (max-width: 768px) {
+  .div_size,
+  .div_size_error {
+    width: 690px;
+    height: 780px;
+  }
+
+  .div_size_error {
+    height: 830px;
+  }
+
+  .first_last_div {
+    width: 610px;
+  }
+
+  .first_div,
+  .last_div,
+  .first_div_error,
+  .last_div_error {
+    width: 297px;
+  }
+
+  .first_name_input,
+  .last_name_input,
+  .first_name_input_red,
+  .last_name_input_red {
+    width: 247px;
+  }
+
+  .email_div,
+  .email_div_error {
+    width: 610px;
+  }
+
+  .email_input,
+  .email_input_red {
+    width: 560px;
+  }
+
+  .radio_div {
+    width: 610px;
+  }
+
+  .query_type_div,
+  .query_type_div_error {
+    width: 610px;
+  }
+
+  .message_div,
+  .message_div_error {
+    width: 610px;
+    height: 167px;
+  }
+
+  .message_textarea {
+    width: 560px;
+    height: 106px;
+  }
+
+  .terms,
+  .terms_error {
+    width: 610px;
+  }
+
+  .button {
+    width: 610px;
+  }
+}
+
+@media (max-width: 375px) {
+  .div_size,
+  .div_size_error {
+    width: 343px;
+    height: 1078px;
+    margin-top: 32px;
+  }
+
+  .div_size_error {
+    height: 1130px;
+  }
+
+  .contact_us_text {
+    margin-top: 24px;
+    margin-left: 24px;
+  }
+  .first_last_div {
+    width: 295px;
+    height: 190px;
+    flex-direction: column;
+  }
+
+  .first_name_input,
+  .last_name_input,
+  .first_name_input_red,
+  .last_name_input_red {
+    width: 245px;
+  }
+
+  .email_div,
+  .email_div_error {
+    width: 295px;
+  }
+  .email_input,
+  .email_input_red {
+    width: 245px;
+  }
+  .query_type_div,
+  .query_type_div_error {
+    width: 295px;
+    height: 159px;
+  }
+  .query_type_div_error {
+    height: 188px;
+  }
+  .radio_div {
+    width: 295px;
+    height: 118px;
+    flex-direction: column;
+  }
+  .general_enquiry,
+  .support_request {
+    width: 269px;
+  }
+
+  .message_div,
+  .message_div_error {
+    width: 295px;
+    height: 278px;
+  }
+
+  .message_textarea {
+    width: 245px;
+    height: 214px;
+  }
+  .terms,
+  .terms_error {
+    width: 295px;
+    height: 48px;
+  }
+  .terms_text {
+    margin-left: 0;
+  }
+  .check_terms {
+    gap: 16px;
+  }
+
+  .button {
+    width: 295px;
+    margin-left: 24px;
+  }
+}

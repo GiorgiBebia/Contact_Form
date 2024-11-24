@@ -1,0 +1,57 @@
+.sent_div {
+  width: 450px;
+  height: 107px;
+  position: absolute;
+  top: 24px;
+  left: 495px;
+  background-color: #2a4144;
+  border-radius: 12px;
+}
+
+.message_sent {
+  width: 156px;
+  height: 27px;
+  margin-top: 24px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.accept_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.message_text {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.thanks_text {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #e0f1e8;
+  margin-top: 8px;
+  margin-left: 24px;
+}
+
+@media (max-width: 768px) {
+  .sent_div {
+    left: 159px;
+  }
+}
+
+@media (max-width: 375px) {
+  .sent_div {
+    width: 327px;
+    height: 131px;
+    left: 24px;
+  }
+
+  .thanks_text {
+    width: 279px;
+  }
+}
